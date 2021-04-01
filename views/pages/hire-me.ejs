@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Hire me - Fuad Abdullah</title>
+    <title>Hire Fuad Abdullah</title>
     <meta name="description" content="Welcome to my dynamic portfolio. Here, my life-long endeavour in Software Engineering and other relevant fields are reflected in stylish design. If you are interested in my projects or to hiring me, feel free to contact me via my contact details. The website is designed by using Bootstrap Studio!">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
@@ -13,25 +13,14 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
-        <div class="container"><a class="navbar-brand logo" href="#">Fuad Abdullah</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse"
-                id="navbarNav">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="projects-grid-cards.html">Projects</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="cv.html">CV</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="contact.html">Contact</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="hire-me.html">Hire me</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <%- include('../partials/_navbar') %>
     <main class="page hire-me-page">
         <section class="portfolio-block hire-me">
             <div class="container">
                 <div class="heading">
-                    <h2>Hire Me</h2>
+                    <h2>Interested in Hiring Me?</h2>
+                    <hr>
+                    <h3>You can leave your recruitment details down here <br> and I will follow up to you soon!</h3>
                 </div>
                 <form>
                     <div class="form-group"><label for="subject">Subject</label><select class="form-control" id="subject"><option value="" selected="">Choose Subject</option><option value="1">Subject 1</option><option value="2">Subject 2</option><option value="3">Subject 3</option></select></div>
@@ -41,7 +30,7 @@
             <div class="form-group">
                 <div class="form-row">
                     <div class="col-md-6"><label for="hire-date">Date</label><input class="form-control" id="hire-date" type="date"></div>
-                    <div class="col-md-6 button"><button class="btn btn-primary btn-block" type="submit">Hire Me</button></div>
+                    <div class="col-md-6 button"><button class="btn btn-primary btn-block" type="submit">Hire Me!</button></div>
                 </div>
             </div>
             </form>

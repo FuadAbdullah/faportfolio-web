@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - Fuad Abdullah</title>
+    <title>Welcome to Fuad's Portfolio</title>
     <meta name="description" content="Welcome to my dynamic portfolio. Here, my life-long endeavour in Software Engineering and other relevant fields are reflected in stylish design. If you are interested in my projects or to hiring me, feel free to contact me via my contact details. The website is designed by using Bootstrap Studio!">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
@@ -13,27 +13,14 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
-        <div class="container"><a class="navbar-brand logo" href="#">Fuad Abdullah</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse"
-                id="navbarNav">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">Home</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="projects-grid-cards.html">Projects</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="cv.html">CV</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="contact.html">Contact</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="hire-me.html">Hire me</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <main class="page lanidng-page">
+    <%- include('../partials/_navbar') %>
+    <main class="page landing-page">
         <section class="portfolio-block block-intro">
             <div class="container">
                 <div class="avatar" style="background-image:url(&quot;assets/img/avatars/avatar.jpg&quot;);"></div>
                 <div class="about-me">
                     <p><br>Salam Sejahtera! I am&nbsp;<strong>Fuad Abdullah</strong>. I create simple websites and software programs in my free time. I have deep interest in Raspberry Pi, servers, networks and networking as well as cybersecurity-related
-                        fields.<br><br></p><a class="btn btn-outline-primary" role="button" href="hire-me.html">Hire me</a></div>
+                        fields.<br><br></p><a class="btn btn-outline-primary" role="button" href="hireme">Hire me</a></div>
             </div>
         </section>
         <section class="portfolio-block photography">
@@ -48,7 +35,7 @@
         <section class="portfolio-block call-to-action border-bottom">
             <div class="container">
                 <div class="d-flex justify-content-center align-items-center content">
-                    <h3>Like what you see?</h3><button class="btn btn-outline-primary btn-lg" type="button">Hire me</button></div>
+                    <h3>Like what you see?</h3><button class="btn btn-outline-primary btn-lg" type="button" href="hireme">Hire me</button></div>
             </div>
         </section>
         <section class="portfolio-block skills">
