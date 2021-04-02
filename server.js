@@ -36,8 +36,8 @@ var cvPage = function(req, res){
 }
 
 // URL Params Strings
-// An string to store URL params pointing towards index page
-var indexParams = '/home';
+// An array to store URL params pointing towards index page
+var indexParams = ['/', '/home'];
 // A string to store URL params pointing towards contact page
 var contactParams = '/contactme';
 // A string to store URL params pointing towards hire me page
